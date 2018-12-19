@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="/css/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+        
+    </head>
+    
+    <body>
+        <header>
+            <h1>Sugar Free Recipes</h1>
+        </header>
+        <main>
+            <div class="container">
+                <div class="wrapper-buttons">
+                    <h2>Recipes</h2>
+                    <div class="flex-container">
+                        <div class="active btn-image">
+                            <img src="images/StickyToffeePudding.jpg">
+                            <label>Sticky 'Toffee' Pudding</label>
+                            <input type="hidden" value="StickyToffeeRecipe"/>
+                        </div>
+                        <div class="btn-image">
+                            <img src="images/ChocolateBeetrootCake.jpg" alt="Chocolate Beetroot Cake">
+                            <label>Chocolate Beetroot Cake</label>
+                            <input type="hidden" value="BeetrootCakeRecipe"/>
+                        </div>
+                        <div class="btn-image">
+                            <img src="images/CarrotCake.jpg" alt="Carrot Cake">
+                            <label>Carrot Cake</label>
+                            <input type="hidden" value="CarrotCakeRecipe"/>
+                        </div>
+                        
+                        <div class="btn-image">
+                            <img src="images/BananaandCoconutCake.jpg" alt="Banana and Coconut Cake">
+                            <label>Banana and Coconut Cake</label>
+                            <input type="hidden" value="CoconutCakeRecipe"/>
+                        </div>
+                        <div class="btn-image">
+                            <img src="images/ChocolateMugCake.jpg" alt="Chocolate Mug Cake">
+                            <label>Chocolate Mug Cake</label>
+                            <input type="hidden" value="MugCakeRecipe"/>
+                        </div>
+                        <div class="btn-image">
+                            <img src="images/ChocolateCupcake.jpg" alt="Chocolate Cupcakes">
+                            <label>Chocolate Cupcakes</label>
+                            <input type="hidden" value="CupcakesRecipe"/>
+                        </div>
+                        <div class="btn-image">
+                            <img src="images/OrangeandLavenderCookies.jpg" alt="Orange and Lavendar Cookies">
+                            <label>Orange and Lavendar Cookies</label>
+                            <input type="hidden" value="LavendarCookiesRecipe"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper-view">
+                    <h2>Recipe View</h2>                
+                    <div id="StickyToffeeRecipe" class="recipe">
+                        <h3>Sticky 'Toffee' Pudding</h3>
+                        <h4>Prep Time - 30mins // Cooking Time - 2 hours</h4>
+                        <h5>Ingredients</h5>
+                        <div class="recipe-container">
+                            <ul>
+                                <li>190g dates</li>
+                                <li>10g raisins</li>
+                                <li>50g butter - plus extra for greasing the pudding basin</li>
+                                <li>20g Stevia</li>
+                                <li>2 tbsp honey</li>
+                                <li>2 tbsp date nectar</li>
+                                <li>200g self-raising flour</li>
+                                <li>2 free-range eggs</li>
+                                <li>1tsp vanilla extract</li>
+                                <li>1 tsp bicarbonate of soda</li>
+                            </ul>
+                            <h5>Method</h5>
+                            <ul>
+                                <li>Butter the pudding basin</li>
+                                <li>Place the dates in 250ml boiling water in a pan and bring to the boil. Remove the pan from the heat to cool.</li>
+                                <li>In a large bowl, beat the butter, Stevia, honey and date nectar together till smooth.</li>
+                                <li>In another bowl sieve the flour and bicarbinate of soda together.</li>
+                                <li>Whisk the eggs and vanilla essence together.</li>
+                                <li>Add a couple of spoonfuls of sieved flour and a bit of the egg mixture to the butter and mix. Keep adding till all the flour and eggs are added and the mixture is smooth.</li>
+                                <li>Using a hand blender or food processor, blend the dates, raisins and water together.</li>
+                                <li>Add the date mixture into the flour mixture and mix well.</li>
+                                <li>Pour the batter into the pudding dish.</li>
+                                <li>Cut two circles of greaseproof paper out to sit on top of the batter in the basin.</li>
+                                <li>Cover the basin with foil and tie string around the basin lip then create a handle for lifting.</li>
+                                <li>Using a large pan with a lid, place a heatproof plate in the bottom of the pan.</li>
+                                <li>Lift the pudding into the pan and fill halfway with boiling water.</li>
+                                <li>Place the lid on and boil for 2 hours, adding more water if needed.</li>
+                                <li>For the sauce, gently melt the butter, honey and date nectar together in a saucepan, bring to the boil then turn down the heat. Whisk in the cream and keep on the heat till heated through.</li>
+                            </ul>
+                            <h5>For the 'toffee' sauce</h5>
+                            <ul>
+                                <li>100g butter</li>
+                                <li>1 tbsp honey</li>
+                                <li>1 tbsp date nectar</li>
+                                <li>100ml double cream</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="CupcakesRecipe" class="hidden recipe">
+                        <h3>Chocolate Cupcakes</h3>
+                        <h4>Prep Time - 15 min // Cooking Time - 30 min</h4>
+                        <h5>Ingredients</h5>
+                        <div class="recipe-container">
+                            <ul>
+                                <li>5 tbsp hot water</li>
+                                <li>5 tbsp hot milk</li>
+                                <li>3 tbsp honey</li>
+                                <li>3 tbsp agave syrup</li>
+                                <li>4 tbsp dried stoned dates</li>
+                                <li>4 tbsp raisins</li>
+                                <li>200g self raising flour</li>
+                                <li>1/2 tsp salt</li>
+                                <li>30g cocoa powder</li>
+                                <li>5 tbsp Stevia</li>
+                                <li>100g margarine</li>
+                                <li>2 eggs</li>
+                                <li>Few drops of vanilla essence</li>
+
+                                </ul>
+                                <h5>Method</h5>
+                                <ul>
+                                    <li>Heat the oven to 180C/160C fan/gas mark 4.</li>
+                                    <li>Line a 12 slot muffin tray with paper cases.</li>
+                                    <li>Heat the water and milk till hot, not boiling, add the dates and raisins to soak. Mash when soft.</li>
+                                    <li>Add the honey and agave to the dates and raisins mixture, set aside to cool.</li>
+                                    <li>Seive the flour, salt, cocoa powder and Stevia into a mixing bowl.</li>
+                                    <li>Rub in the margarine.</li>
+                                    <li>Whisk the eggs with the vanilla essence.</li>
+                                    <li>Stir in the eggs to the dry ingredients then add the date mixture, mix well.</li>
+                                    <li>Spoon into the paper cases and bake in the oven for 25-30 min.</li>
+                                    <li>When cooled top with the avocado chocolate topping (see the Chocolate Beetroot Cake recipe for details).</li>
+                                </ul>
+                            </div>
+                    </div>
+                    <div id="BeetrootCakeRecipe" class="hidden recipe">
+                        <h3>Chocolate Beetroot Cake</h3>
+                        <h4>Prep Time - 10 min // Cooking Time - 30 min</h4>
+                        <h5>Ingredients</h5>
+                        <div class="recipe-container">
+                            <ul>
+                                <li>250g cooked beetroots</li>
+                                <li>1 tsp vanilla essence</li>
+                                <li>2 tbsp honey</li>
+                                <li>2 tbsp agave syrup</li>
+                                <li>2 tbsp stevia</li>
+                                <li>2 tbsp dried stoned dates soaked in 2 tbsp of hot water, mashed to form a paste</li>
+                                <li>100ml vegetable oil</li>
+                                <li>2 eggs</li>
+                                <li>250g plain flour</li>
+                                <li>2 tsp baking powder</li>
+                                <li>50g cocoa powder</li>
+                                <li>pinch of salt</li>
+                                <li>2 tbsp milk</li>
+                            </ul>
+                            <h5>For the chocolate topping</h5>
+                            <ul>
+                                <li>2 ripe avocados</li>
+                                <li>2-3 tbsp cocoa powder</li>
+                                <li>2 tbsp set honey</li>
+                                <li>2 tbsp agave syrup</li>
+                                <li>few drops of vanilla essence</li>
+                            </ul>
+                            <h5>Method</h5>
+                            <ul>
+                                <li>Preheat the oven to 180C/160C fan/gas mark 4.</li>
+                                <li>Grease and flour two cake tins or line with grease proof paper.</li>
+                                <li>In a mixing bowl puree the beetroots with a hand blender then combine with the vanilla, honey, agave and dates till smooth; or use a food processor.</li>
+                                <li>Whisk the eggs and add with the oil to the mixture.</li>
+                                <li>Sift the flour, Stevia, baking powder, salt and cocoa powder into the bowl and mix until all ingredients are combined.</li>
+                                <li>If the mixture is too thick at this stage add the milk to loosen.</li>
+                                <li>Spoon the mixture into the cake tins evenly and bake in the oven for 30mins, checking with a skewer when done.</li>
+                                <li>Allow to cool for 5 min in the tin then turn out onto a wire rack.</li>
+                                <li><b>For the topping:</b> Cut each avocado in half, de-stone then scoop the flesh into a small mixing bowl.</li>
+                                <li>Using a fork mash the avocado together with the honey, agave and vanilla; then mix in the cocoa powder.</li>
+                                <li>Taste check the sweetness and add more honey or agave if you would like sweeter.</li>
+                            </ul>   
+                        </div>
+                    </div>
+                    <div id="CarrotCakeRecipe" class="hidden recipe">
+                        <h3>Carrot Cake</h3>
+                        <h4>Prep Time - 20mins // Cooking Time - 1 Hour 15min</h4>
+                        <h5>Ingredients</h5>
+                        <div class="recipe-container">
+                            <ul>
+                                <li>100ml vegetable oil, plus extra for greasing</li>
+                                <li>2 eggs beaten</li>
+                                <li>50g dried stoned dates</li>
+                                <li>100g raisins</li>
+                                <li>300g grated carrots, (grated weight)</li>
+                                <li>75g pecans or walnuts, chopped (optional)</li>
+                                <li>220g self-raising flour</li>
+                                <li>4 tbsp of Stevia</li>
+                                <li>1 pinch of salt</li>
+                                <li>1 tsp bicarbonate of soda</li>
+                                <li>1 tsp ground cinnamon</li>
+                                <li>½ tsp freshly grated nutmeg</li>
+                                <li>½ tsp mixed spice</li>
+                            </ul>
+                            <h5>For the Orange Cream Cheese Icing</h5>
+                            <ul>
+                                <li>250g cream cheese, chilled</li>
+                                <li>50g butter, at room temperature</li>
+                                <li>1 tsp vanilla extract</li>
+                                <li>4/5 tbsp set honey</li>
+                                <li>Zest of one orange or 1 tsp orange liquer if you’re feeling naughty!</li>
+                            </ul>
+                            <h5>Method</h5>
+                            <ul>
+                                <li>Preheat the oven to 150C/130C fan/gas mark 2. Oil and line a loaf tin with greaseproof paper.</li>
+                                <li><b>For the carrot cake:</b> Soak the dates and raisins in 5-6 tbsp hot water.</li>
+                                <li>In a food processor, ‘blitz’ the raisins and dates to make a paste. Add the oil and beaten eggs, carrots (and nuts, optional).</li>
+                                <li>Sift in the rest of the dry ingredients and bring the mixture together.</li>
+                                <li>Pour the mixture into the prepared loaf tin, smooth the surface and bake in the oven for 1 hour 15 minutes, or until until a skewer inserted into the middle comes out clean.</li>
+                                <li>Remove from the oven and allow the cake to cool in the tin for about five minutes before removing. Cool completely on a wire rack before adding the icing.</li>
+                                <li><b>For the icing:</b> Beat the cream cheese and butter together in a bowl until well combined. Add the vanilla extract, honey and mix until the icing is smooth and thick. Using a palette knife, spread the icing evenly over the cooled cake, top with finely grated orange zest then cut into slices to serve.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="LavendarCookiesRecipe" class="hidden recipe">
+                        <h3>Orange and Lavender Cookies</h3>
+                        <h4>Prep Time - 10 mins // Cooking Time - 10mins</h4>
+                        <h5>Ingredients</h5>
+                        <div class="recipe-container">
+                            <ul>
+                                <li>50g margarine</li>
+                                <li>3 tbsp set honey</li>
+                                <li>3 tbsp agave syrup</li>
+                                <li>1/2 tsp lavender</li>
+                                <li>The finely grated peel and juice of 1 medium sized orange</li>
+                                <li>210g self raising flour</li>
+                                <li>80g ground almonds/li>
+                                <li>5 tbsp Stevia</li>
+                            </ul>
+                            <h5>Method</h5>
+                            <ul>
+                                <li>Pre heat the oven to 180C/160C fan/gas mark 4 and line a baking tray with greaseproof paper.</li>
+                                <li>In a suacepan on a very low heat, melt together the margarine, honey, syrup.</li>
+                                <li>Crush the lavender in a pestle and mortar, add to the pan.</li>
+                                <li>Grate the orange into the pan and add the juice.</li>
+                                <li>Mix together and set aside to cool.</li>
+                                <li>In a mixing bowl sift the flour, add the ground almonds and Stevia, mix well.</li>
+                                <li>Stir in the honey mixture and bring the mixture together.</li>
+                                <li>Roll into a log shape and wrap in grease proof paper.</li>
+                                <li>Put the rolled mixture into the fridge to firm up for 30 min.</li>
+                                <li>Cut into slices about 1 cm thick if you like the cookies soft, if you want them crunchy then halve the thickness.</li>
+                                <li>Place onto the tray and bake for 10mins.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="MugCakeRecipe" class="hidden recipe">
+                        <h3>Chocolate Mug Cake</h3>
+                        <h4>Prep Time - 2 min // Cooking Time - 2 min</h4>
+                        <h5>Ingredients</h5>
+                        <div class="recipe-container">
+                            <ul>
+                                <li>1 egg</li>
+                                <li>Few drops of vanilla essence</li>
+                                <li>2 tbsp vegetable oil</li>
+                                <li>2 tbsp set honey</li>
+                                <li>2 tbsp stevia</li>
+                                <li>1 tbsp dried stoned dates - soaked in 2 tbsp hot water and mashed to a paste</li>
+                                <li>2 tbsp plain flour</li>
+                                <li>1/4 tsp bicarbanate of soda</li>
+                                <li>2 tbsp cocoa powder</li>
+                                <li>1 large microwaveable mug</li>
+                                <li>Frozen mixed berries (optional)</li>
+                            </ul>
+                            <h5>Method</h5>
+                            <ul>
+                                <li>Whisk the egg, vanilla essence and oil in a mug.</li>
+                                <li>Stir in the honey, stevia and dates.</li>
+                                <li>Add the flour and bicarbanate of soda, mix well.</li>
+                                <li>Stir in the cocoa powder.</li>
+                                <li>Add as many berries as you like, either topping the mixture or mixed in (optional).</li>
+                                <li>Put in microwave on full power for 1-2 min.</li>
+                            </ul>
+                        </div>    
+                    </div>
+                    <div id="CoconutCakeRecipe" class="hidden recipe">
+                        <h3>Banana and Coconut Cake</h3>
+                        <h4>Prep Time - 20mins // Cooking Time - 40mins</h4>
+                        <h5>Ingredients</h5>
+                        <div class="recipe-container">
+                            <ul>
+                                <li>2 eggs</li>
+                                <li>2 ripe bananas</li>
+                                <li>2 tbsp agave syrup</li>
+                                <li>3 tbsp honey</li>
+                                <li>4 tbsp Stevia or other dry sweetener</li>
+                                <li>4 tbsp vegetable oil</li>
+                                <li>100ml milk</li>
+                                <li>220g plain flour</li>
+                                <li>1/2 tsp baking powder</li>
+                                <li>1/2 tsp bicarbonate of soda</li>
+                                <li>50g desiccated coconut</li>
+                            </ul>
+                            <h5>Method</h5>
+                            <ul>
+                                <li>Pre-heat the oven to 180C/160C fan/gas mark 4.</li>
+                                <li>Mash the bananas with the honey, Stevia and oil, making sure they are thoroughly mashed with no large lumps.</li>
+                                <li>Whisk the eggs and add along with the milk, mix well.</li>
+                                <li>Weigh out the flour, then add the raising agents, sift them all together into the mixture, then mix in the coconut.</li>
+                                <li>Spoon into a loaf tin, either suitably oiled or lined with greaseproof paper.</li>
+                                <li>Place on the middle shelf and cook for 40mins, checking at 30mins with a skewer.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    
+    </body>
+    <script src="scripts.js"></script>
+</html>
